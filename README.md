@@ -1,16 +1,17 @@
-Pizzaria Admin App 🍕🚀
+# Pizzaria Admin App 🍕🚀
+
 Este projeto é uma interface administrativa para a pizzaria Pizzaria de Marte. Ele foi desenvolvido usando Apache Cordova para criar um aplicativo híbrido que gerencia o cadastro, edição e exclusão de pizzas.
 
 ---
 
-📋 Visão Geral
+# 📋 Visão Geral
 O aplicativo possui duas telas principais:
 
 Tela de Lista: Exibe as pizzas cadastradas e oferece um botão para adicionar uma nova pizza.
 Tela de Cadastro: Permite inserir ou editar os dados da pizza (nome, preço e foto).
 As requisições para o servidor são feitas para o endpoint https://pedidos-pizzaria.glitch.me usando os métodos HTTP adequados (GET, POST, PUT, DELETE).
 
-🛠️ Requisitos e Configuração
+# 🛠️ Requisitos e Configuração
 
 Apache Cordova: Utilize o comando abaixo para criar o projeto:
 
@@ -26,7 +27,7 @@ CSS: Use o CSS fornecido para definir o layout e a aparência das telas.
 
 ---
 
-💻 Estrutura do Projeto
+# 💻 Estrutura do Projeto
 Arquivos Principais
 index.html: Define a estrutura das telas, com as divs app-lista e app-cadastro.
 index.js: Contém a lógica do aplicativo para alternar entre as telas, enviar dados para o servidor e carregar a lista de pizzas.
@@ -50,7 +51,7 @@ flowchart TD
 ```
 ---
 
-🚀 Como Executar
+# 🚀 Como Executar
 
 Para Testar no Android
 
@@ -97,7 +98,7 @@ https://pedidos-pizzaria.glitch.me/admin/pizza/Pizzaria de Marte/NOME_DA_PIZZA
 
 ---
 
-📚 Considerações Finais
+# 📚 Considerações Finais
 
 Troca de Telas: A lógica de navegação entre a lista e o cadastro é feita via JavaScript, alterando o display das divs.
 Plugin HTTP do Cordova: Certifique-se de que o plugin esteja instalado e configurado corretamente para enviar os dados no formato JSON.
